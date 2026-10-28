@@ -1,0 +1,94 @@
+{
+  "_comment": "Questions a real customer would type into ChatGPT. {where} becomes e.g. 'Chamberí (Madrid)' or 'Madrid'. Every question in a sector must fit the same kind of business, so the 10 targets are comparable. 'generic' words are stripped before matching business names, so 'Clínica Dental Sonrisas' and 'Sonrisas' count as the same business.",
+
+  "_sector_test": {
+    "estetica": "el barrio de Salamanca",
+    "moda": "el barrio de Salamanca",
+    "pilates": "Chamberí",
+    "ingles": "Chamberí"
+  },
+
+  "estetica": {
+    "label": "Medicina estética",
+    "queries": [
+      "¿Cuál es la mejor clínica de medicina estética en {where}?",
+      "Clínica de estética en {where} para botox con buenas opiniones",
+      "Recomiéndame un médico estético de confianza en {where}",
+      "¿Dónde hacerse un tratamiento de ácido hialurónico en {where}?",
+      "Best aesthetic clinic in {where}"
+    ],
+    "generic": ["clinica", "clinicas", "medicina", "estetica", "centro", "dr", "dra", "doctor", "doctora", "instituto", "aesthetic", "clinic"]
+  },
+
+  "moda": {
+    "label": "Boutiques de moda de mujer",
+    "queries": [
+      "¿Qué boutiques de ropa de mujer recomiendas en {where}?",
+      "¿Dónde comprar un vestido de invitada en {where}?",
+      "Tiendas de moda de diseñadores españoles en {where}",
+      "Tiendas de ropa de mujer independientes y con estilo en {where}, que no sean cadenas",
+      "Best independent women's fashion boutiques in {where}"
+    ],
+    "generic": ["tienda", "tiendas", "boutique", "moda", "store", "shop", "concept", "atelier"]
+  },
+
+  "pilates": {
+    "label": "Estudios de pilates",
+    "queries": [
+      "¿Cuál es el mejor estudio de pilates en {where}?",
+      "Pilates reformer en {where} con buenas opiniones",
+      "Estudio de pilates en {where} con grupos reducidos",
+      "Pilates en {where} para dolor de espalda, ¿qué estudio recomiendas?",
+      "Best reformer pilates studio in {where}"
+    ],
+    "generic": ["estudio", "studio", "pilates", "centro", "reformer", "club"]
+  },
+
+  "ingles": {
+    "label": "Academias de inglés",
+    "queries": [
+      "¿Cuál es la mejor academia de inglés en {where}?",
+      "Academia en {where} para preparar el First o el C1 de Cambridge",
+      "Clases de inglés para niños en {where} con buenas opiniones",
+      "Clases de inglés para adultos en {where} con profesores nativos",
+      "Academia de inglés en {where} con grupos reducidos, ¿cuál recomiendas?"
+    ],
+    "generic": ["academia", "academias", "idiomas", "escuela", "school", "english", "ingles", "language", "languages", "centro"]
+  },
+
+  "extranjeria": {
+    "label": "Abogados de extranjería",
+    "queries": [
+      "¿Qué abogado de extranjería recomiendas en {where}?",
+      "Despacho de abogados en {where} para tramitar la nacionalidad española",
+      "Abogado en {where} para renovar la TIE o tramitar el arraigo, con buenas opiniones",
+      "Mejor despacho de extranjería en {where} para un visado de nómada digital",
+      "Immigration lawyer in {where} who speaks English"
+    ],
+    "generic": ["abogados", "abogado", "abogada", "despacho", "bufete", "asociados", "legal", "law", "firm", "lawyers", "extranjeria", "inmigracion"]
+  },
+
+  "dental": {
+    "label": "Clínicas dentales",
+    "queries": [
+      "¿Cuál es la mejor clínica dental en {where}?",
+      "Recomiéndame un dentista de confianza en {where}",
+      "Clínica dental en {where} para implantes con buenas opiniones",
+      "Dentista en {where} que atienda urgencias",
+      "Best dentist in {where} that speaks English"
+    ],
+    "generic": ["clinica", "dental", "dentista", "dentistas", "centro", "odontologico", "odontologica", "odontologia", "dr", "dra", "doctor"]
+  },
+
+  "gestorias": {
+    "label": "Gestorías y asesorías",
+    "queries": [
+      "¿Qué gestoría recomiendas para autónomos en {where}?",
+      "Asesoría fiscal de confianza en {where}",
+      "Gestoría en {where} para montar una empresa",
+      "Mejor asesoría para la declaración de la renta en {where}",
+      "Accountant for freelancers in {where} who speaks English"
+    ],
+    "generic": ["gestoria", "asesoria", "asesores", "asesor", "fiscal", "contable", "consulting", "accountants"]
+  }
+}
